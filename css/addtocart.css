@@ -1,0 +1,40 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+.card-img{
+
+    width: 692px;
+    height: 229px;
+}
+.heading-1{
+
+    width: 236px;
+    height: 35px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 29px;
+    margin: 0 auto;
+
+}
+.p1{
+
+    width: 653px;
+    height: 90px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 13px;
+    color: #000000 !important;
+
+}
+.btnaddtothecart{
+
+    width: 231px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #cc9933 !important;
+    color: #ffffff !important;
+    border: none;
+    margin: 5px;
+
+}

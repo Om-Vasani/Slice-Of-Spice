@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background-image: url('../images/chicken-skewers-with-slices-sweet-peppers-dill\ 1\ \(1\).png');
+    width: 100%;
+    height: 500px;
+}
+.navbar-brand{
+
+    margin-left: 20px;
+
+}
+.navbar-nav li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+
+}
+.navbar-nav li a:active{
+    color: #fff;
+ 
+}
+.btnViewCart{
+    width: 160px;
+    height: 30px;
+    color: #fff;
+    background-color: #CC9933;
+    border: none;
+}
+.seaction-2{
+
+    width: 1023px;
+    height: 249px;
+    margin: 0 auto;
+    background-color: #ffffff !important;
+    transform: translateY(-120px);
+
+}
+.heading-1{
+
+   
+    font-family: 'montserrat',sans-serif;
+    font-size: 58px;
+    text-align: center;
+    color: #000000;
+    
+}
+.heading-2{
+
+    width: 150px;
+    height: 34px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    color: #000000;
+
+}
+.card{
+
+    width: 339px;
+    height: 454px;
+    margin: 0 auto;
+    border: none;
+    background-color: #ffffff !important;
+
+    
+}
+.card-img-top{
+
+    width: 325px;
+    border-radius: 9px;
+    margin-top: 20px;
+
+}
+.heading-3{
+
+    text-align: center;
+    font-family: 'montserrat',sans-serif;
+    font-size: 20px;
+    color: #000000 !important;
+
+}
+.card-text{
+
+    width: 273px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-left: -20px;
+
+}
+p{
+
+    margin-left: 90px;
+}
+.p1{
+
+    margin-left: 450px;
+    color: #CC9933;
+
+}
+@media (max-width:375px){
+
+   .main-container{
+
+      width: 375px;
+      height: 500px;
+
+    }
+    .seaction-2{
+
+       margin: 0 auto;
+        
+    }
+    .heading-1{
+
+        margin-left: -630px;
+
+    }
+    .heading-2{
+
+        margin-left: 120px;
+
+    }
+    .row{
+
+        flex-direction: column;
+
+    }
+    .card{
+
+       
+       margin-left: 65px;
+       margin-bottom: 10px;
+
+    }
+    .heading-3{
+
+        text-align: center;
+
+    }
+    .p1{
+
+        margin-left: 160px;
+
+    }
+}

@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+.main-container{
+    background-image: url('../images/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food-top-view\ 1.png');
+    width: 100%;
+    height: 500px;
+}
+.navbar-brand{
+
+    margin-left: 20px;
+
+}
+.navbar-nav li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+
+}
+.navbar-nav li a:active{
+    color: #fff;
+ 
+}
+.btnViewCart{
+    width: 160px;
+    height: 30px;
+    color: #fff;
+    background-color: #CC9933;
+    border: none;
+}
+h1{
+    width: 350px;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+}
+p{
+    width: 350px;
+    color: #fff ;
+
+}
+.btnMenu{
+    width: 160px;
+    height: 30px;
+    color: #000;
+    background-color: #CC9933;
+    border: none;
+   
+
+}
+.section-2{
+    width: 1047px;
+    height: 925px;
+    border: none;
+    background-color: #ffffff !important;
+    margin: 0 auto;
+    display: block;
+    transform: translateY(-5%);
+}
+.img{
+
+    width: 1047px;
+
+}
+.section-2 h2{
+
+    color: #000000 !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+
+}
+input[type="text"] {
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+.p1{
+
+    width: 1047px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+    text-align: center;
+    color: #000000 !important;  
+
+}
+.p2{
+
+    width: 1245px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 22px;
+    margin-left: 130px;
+    color: #000000 !important;  
+
+}
+.READMORE{
+
+    margin: 450px;
+    text-align: center;
+    color: #CC9933 !important;
+    font-family: 'montserrat',sans-serif;
+    font-size: 23px;
+
+
+}
+.section-3{
+    width: 100%;
+    height: 625px;
+    background-color: #F7E9E4 !important;
+    margin: 0 auto;
+    display: block;
+
+}
+h3{
+
+    width: 189px;
+    margin: 0 auto;
+    color: #000000 !important;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+    font-size: 34px;
+
+
+}
+.p3{
+
+    width: 1245px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 19px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000000 !important; 
+
+}
+.p4{
+
+    width: 1245px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000000 !important;  
+
+
+}
+.btnOrderNow{
+
+    width: 264px;
+    height: 65px;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    margin: 550px;
+    margin-top: 50px;
+
+}
+.section-4{
+    
+    color: #ffffff !important;
+    margin: 0 auto;
+    display: block;
+ 
+
+}
+.heading-2{
+
+    width: 193px;
+    margin: 0 auto;
+    color: #000000 !important;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+    font-size: 35px;
+
+}
+.row{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.card{
+
+    border: none !important;
+    
+   
+}
+
+.heading-1{
+
+    width: 193px;
+    color: #000000 !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+    font-size: 22px;
+
+}
+.card-text{
+
+    width: 357px;
+    font-family: 'montserrat',sans-serif;   
+    font-size: 15px;
+    text-align: center;
+    margin-left: -80px; 
+    color: #000000 !important;  
+
+}
+
+.main-container-2 {
+    position: relative;
+    width: 100%;
+    background-image: url('../images/club-sandwich-with-side-french-fries\ 1.png');
+    background-size: cover;
+}
+
+.main-container-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+
+.numbers-grid{
+    display: flex;
+    z-index: 1 ;
+    color: #CC9933;
+    position: relative;
+}
+.heading-3{
+
+    width: 643px;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #ffffff!important;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+    font-size: 29px;
+    z-index: 1;
+    position: relative;
+
+}
+.p6{
+
+    width: 242px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 89px;
+    color: #CC9933;
+    margin-left: 40px;
+
+}
+.p5{
+
+    width: 337px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 23px;
+    color: #ffffff !important;  
+    margin-left: 80px;
+
+}
+.heading-4{
+
+    width: 559px;
+    margin: 0 auto;
+    padding-top: 100px;
+    color: #000000 !important;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+    font-size: 35px;
+
+
+}
+.p7{
+
+    width: 1064px;
+    font-family: 'montserrat',sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000000 !important;  
+
+}
+.img-1{
+
+    width: 79px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+.heading-5{
+
+    width: 193px;
+    color: #000000 !important;
+    margin-left: -50px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+
+}
+.main-container-3 {
+    position: relative;
+    width: 100%;
+    background-image: url('../images/business-handshake-two-men-demonstrating-their-agreement-sign-agreement-contract-their-firms-companies-enterprises\ 1\ \(1\).png');
+    background-size: cover;
+    margin-top: 100px;
+
+}
+
+.main-container-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+
+}
+.heading-6{
+
+    width: 624px;
+    color: #ffffff !important;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 21px;
+    z-index: 1;
+    position: relative;
+
+}
+.input-wrapper { 
+    position: relative; 
+    display: inline-block; 
+    margin-left: 400px;
+} 
+
+.input-wrapper input { 
+    padding-right: 120px; 
+} 
+
+.input-wrapper button { 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    border: none; 
+    background-color: #CC9933; 
+    cursor: pointer !important;
+    height: 27px;
+    width: 90px;
+
+} 
+@media (max-width:375px){
+
+   .main-container{
+
+       width: 375px;
+       height: 600px;
+   }
+    .heading-2 {
+
+        margin-left: 120px;
+       
+    }
+    .row{
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .card-img-top{
+        
+        margin-left: 30px;
+
+    }
+    .card-text{
+
+        margin-left: -30px;
+
+    }
+    .heading-1{
+
+       margin-left: 50px;
+
+    }
+    .section-2{
+
+        margin: 50px;
+        height: 450px;
+       
+    }
+    h2{
+        
+        margin-left: 150px;
+
+    }
+    .section-2,.img{
+
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto 10px;
+
+    }
+    .section-2,.p1,.section-2,.p2{
+
+        font-size: 20px;
+        margin: 2px;
+      
+    }
+    .READMORE{
+
+        margin: 5px;
+
+    }
+
+    .section-3{
+
+      margin: 50px;
+      height: 450px;
+      
+    }
+    h3{
+
+        margin: 150px;
+
+    }
+    .section-3,.p3,.section-3,.p4{
+
+        font-size: 20px;
+        margin: 2px;
+        
+    }
+    .btnOrderNow{
+
+        margin: 5px;
+
+    }
+    .heading-3{
+
+        font-size: 16px;
+        margin-left: 35px;
+
+    }
+    .numbers-grid{
+
+        flex-direction: column;
+        margin-left: 50px;
+        
+    }
+    
+    .heading-4{
+
+        width: 375px;
+        
+    }
+    .p7{
+
+        width: 390px;
+        margin: -2px ;
+
+    }
+    .heading-5{
+
+        margin: -50px;
+        padding-top: 50px;
+        
+    }
+    .heading-6{
+
+        width: 350px;
+        margin-left: -1px;
+       
+    }
+    
+}

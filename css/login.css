@@ -1,0 +1,100 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.row{
+
+    display: flex;
+
+}
+.col-img{
+
+    width: 711px;
+    height: 419px;
+    margin-top: 30px;
+
+}       
+.img-1{
+
+    width: 110px;
+    margin-left: 130px;
+    margin-top: 30px;
+
+}
+h1{
+
+    width: 68px;
+    margin-left: 160px;
+    font-family: 'montserrat';
+    font-size: 23px;
+    color: #000000;
+    margin-top: 5px;
+
+}
+input{
+
+    width: 300px;
+    font-family: 'poppins';
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 50px ;
+    border-radius: 7px;
+    text-align: center;
+    border-color: #00000025 !important;
+
+}
+.btnLoginwithEmail{
+
+    width: 305px;
+    height: 62.92px;
+    font-family: 'poppins';
+    font-size: 22px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: #cc9933;
+
+}
+p{
+
+    width: 484px;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: 'poppins';
+    font-size: 18px;
+  
+
+}
+.btnContinuewithGoogle{
+
+    width: 305px;
+    height: 62.92px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'poppins';
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: #4285F4;
+    color: #ffffff;
+
+}
+@media (max-width:375px){
+
+    .row{
+
+        flex-direction: column;
+
+    }
+    .col-img{
+
+        width: 375px;
+        height: 219px;
+        margin-top: 0px;
+    }
+    
+}
